@@ -18,4 +18,8 @@ modularity_score=modularity(lbl_tensor,feat_tensor)
 #z_diff_score=z_diff(lbl_tensor,feat_tensor)
 #mig_sup_score=mig_sup(lbl_tensor,feat_tensor)
 #dci_score=dci(lbl_tensor,feat_tensor)
+model_name=feat_path.split("_")[1]
+dataset_name=feat_path.split("_")[2].split(".")[0]
+with open(f"metric_{model_name}_{dataset_name}.txt","w") as f:
+    f.write(modularity_score)
 print(modularity_score)
