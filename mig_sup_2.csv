@@ -1,0 +1,13 @@
+Model,Dataset,Mig-supScore
+ViT-B-32,commonpool_m_clip_s128m_b4k,0.05948379103445943
+ViT-B-32,commonpool_m_laion_s128m_b4k,0.05097382667924716
+ViT-B-32,commonpool_m_image_s128m_b4k,0.0444708193207752
+ViT-B-32,commonpool_m_text_s128m_b4k,0.051993833341513085
+ViT-B-32,commonpool_m_basic_s128m_b4k,0.05715794459066524
+ViT-B-32,commonpool_m_s128m_b4k,0.05050648711119657
+ViT-B-32,datacomp_s_s13m_b4k,0.07360777412575444
+ViT-B-32,commonpool_s_clip_s13m_b4k,0.06074373177571375
+ViT-B-16,laion400m_e32,0.09034041736297571
+ViT-B-16,laion2b_s34b_b88k,0.09710579444888613
+ViT-B-16,datacomp_xl_s13b_b90k,0.0983011786577892
+ViT-B-16,datacomp_l_s1b_b8k,0.1129013771448758
