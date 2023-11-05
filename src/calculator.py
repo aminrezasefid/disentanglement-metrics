@@ -21,5 +21,5 @@ modularity_score=modularity(lbl_tensor,feat_tensor)
 #mig_sup_score=mig_sup(lbl_tensor,feat_tensor)
 #dci_score=dci(lbl_tensor,feat_tensor)
 with open(out_path,"w") as f:
-    f.write(f"{str(labels_tensor)}")
-print(labels_tensor)
+    f.write(f"{str(modularity_score)}")
+print(modularity_score)
