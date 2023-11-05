@@ -16,10 +16,10 @@ lbl_path=args.labels
 out_path=args.out
 feat_tensor=np.load(feat_path)
 lbl_tensor=np.load(lbl_path)
-#modularity_score=modularity(lbl_tensor,feat_tensor)
+modularity_score=modularity(lbl_tensor,feat_tensor)
 #z_diff_score=z_diff(lbl_tensor,feat_tensor)
 #mig_sup_score=mig_sup(lbl_tensor,feat_tensor)
-dci_score=dci(lbl_tensor,feat_tensor)
+#dci_score=dci(lbl_tensor,feat_tensor)
 with open(out_path,"w") as f:
-    f.write(f"{str(dci_score)}")
-print(dci_score)
+    f.write(f"{str(labels_tensor)}")
+print(labels_tensor)
